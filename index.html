@@ -3,57 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="favicon.ico">
-  <title>[練習版]30DAYSトライアル</title>
-  <!-- description ネットの検索結果に表示される説明文。丁寧に書くようにする！ -->
-  <meta name="description" content="30DAYSトライアル初級編の練習用LPです！最後まで作りあげましょう！">
+  <meta name="discription" content="デイトラ30DAYSトライアル練習用LPです。できるだけ動画を見ずに完成させましょう！(ここはインターネット検索で出てくる説明文となりますので、丁寧に描きましょう。)">
+  <title>[練習課題]30DAYSトライアル</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/favicon01.png">
 </head>
+
 <body>
-  
   <header>
-    <div class="container clear"><!--クリアを入れることにより、フロートの浮きを解消する-->
+    <div class="container">
       <div class="header-left">
         <h1 class="header-title">30DAYSトライアル</h1>
       </div>
       <div class="header-right">
         <ul class="header-nav">
-          <li class="header-nav-item"><a href="">デイトラとは</a></li>
-          <li class="header-nav-item"><a href="">コース一覧</a></li>
-          <li class="header-nav-item"><a href="">お問い合わせ</a></li>
+          <li>デイトラとは</li>
+          <li>コース一覧</li>
+          <li>お問い合わせ</li>
         </ul>
       </div>
-      <!-- このクリアの書き方はあんまり使わない -->
-      <!-- <div class="clear"></div> -->
-      <!-- 見えないけどafter擬似要素入ってる -->
+      </div>
     </div>
   </header>
 
   <section class="top">
-    <!-- <img src="./img/main-vsual.png" alt="メインビジュアル"> -->
-    <div class="container">
-      <p class="top-title">
-        1日1題30日で<br>プロのWebエンジニアになろう！
-      </p>
-      <p class="sub-title">
-        毎日設定された課題をこなすだけ！<br>
-        未経験から30日でプログラミングスキルをつけよう
-      </p>
-    </div>
+    <h1 class="top-maintitle">1日1題30日で<br>
+      プロのWebエンジニアになろう！</h1>
+    <p class="top-subtitle">毎日設定された課題をこなすだけ！未経験から<br>
+    30日でプログラミングスキルが身につきます</p>
   </section>
 
   <section class="about section">
-    <div class="container clear">
+    <div class="container">
       <h2 class="section-title">デイトラとは</h2>
-      <div class="about-left">
-        <img src="./img/about.png" alt="デイトラの説明">
-      </div>
-      <div class="about-right">
-        <p>1デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。 毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
-          1日1題30日でプロのWebエンジニアを目指しましょう!</p>
-          <p>2デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。 毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
-            1日1題30日でプロのWebエンジニアを目指しましょう!</p>
+      <div class="about-contents">
+        <div class="about-left">
+          <img src="/img/about.png" class="about-pic" alt="デイトラ概要画像">
+        </div>
+        <div class="about-right">
+          <p>1.デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。 毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
+            1日1題30日でプロのWebエンジニアを目指しましょう!
+          </p>
+          <p>2.デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。 毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
+            1日1題30日でプロのWebエンジニアを目指しましょう!
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -61,41 +56,40 @@
   <section class="course section">
     <div class="container">
       <h2 class="section-title">コース一覧</h2>
-      <div class="course-wrapper">
+      <div class="course-contents">
         <div class="course-item">
-          <img src="./img/web_first.png" alt="デイトラ初級編">
+          <img src="/img/web_first.png" alt="初級コース" class="course-img">
           <p>HTML / CSS / Bootstrap</p>
         </div>
         <div class="course-item">
-          <img src="./img/web_second.png" alt="デイトラ中級編">
+          <img src="/img/web_second.png" alt="中級コース" class="course-img">
           <p>HTML / CSS / JavaScript / jQuery</p>
         </div>
         <div class="course-item">
-          <img src="./img/web_third.png" alt="デイトラ上級編">
+          <img src="/img/web_third.png" alt="上級コース" class="course-img">
           <p>PHP / WordPress</p>
         </div>
       </div>
-    </div>
+    </div>  
   </section>
-  
+
   <section class="contact section">
     <div class="container">
-      <h2 class="section-title">お問い合わせ</h2>
-      <p class="contact-message">さぁ今日から30日間を始めよう!</p>
-      <form action="#" method="post">
-        <input type="email" name="email" id="email" placeholder="メールアドレス">
-        <!-- <input type="text"> -->
-        <!-- <input type="text"> -->
+      <h2 class="section-title">お問い合わせ
+      </h2>
+      <p>さぁ今日から30日間を始めよう!</p>
+      <form action="https://riesagawa.github.io/practice/" method="post">
+        <input type= "email" name="email" id="email" placeholder="メールアドレス">
         <button type="submit" class="btn btn-register">無料ではじめる</button>
-        <!-- <button class="btn btn-login">ログイン</button> -->
       </form>
     </div>
   </section>
-
+  
   <footer>
-    <div class="container clear">
+    <div class="container">
       <p class="copylight">Copyright(C) 2020 東京フリーランス ALL Rights Reserved.</p>
     </div>
   </footer>
+  
 </body>
 </html>
